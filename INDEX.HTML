@@ -1,70 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> MY WEBPAGE</title>
-    <meta name="author" content=" YEBOAH FRANCIS ">
-    <meta name="description" content="this is my awesome webpage for this course">
+<meta charset="utf-8">
+<meta name="description" content="these webpage is awesome ">
+<meta name="author" content="html and css">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title>ASSIGNMENT 2</title>
+<link rel="stylesheet" href="STYLE.CSS">
 </head>
 <body>
-        <h2> welcome to my webpage</h2>
-             <img src="image/IMG_4738.PNG"  width="500" height="600">
-         <p> <bold>Im yeboah francis a student of university of ghana offering information technology</bold></p>
-        
+
+    <div class="container">
+
+
+        <div class="navbar">
+            <div class=" logo">
+               <h1>STATUS</h1>
+               </div>
+            <nav>
+               <ul>
+                   <li><a href="#"> HOME</a></li>
+                   <li><a href="#">TABLE</a></li>
+                   <li><a href="#">FORM</a></li>
+                  </ul>
+       
+            </nav>
+       </div> 
+    </div>
+           <div class="small container">
       <div class="row">
-     <div   class="col-2">
-      <table style="width:100%" border="1">
-            <tr>
-                <th>school attended</th>
-                <th> course</th>
+      <div class="col-2">
+        <h2> <bold>Description Profile </bold></h2>
+        <p> I'm Yeboah francis a student of university of Ghana reading information technology.<br>I’m a level 200 student, I have a passion for the I.T industry <br> Information technology is changing the world everyday and it help the society, <br>community as well as student to obtain basic knowledge from the course as well.<br> I’m very happy to be part of the I.T industry and I will put up my best effort to emerge  new things in the real world.  </p>
+             <img src="image/IMG_0051.JPG">
+            </div>
+             <div class="col-2">
+            
+            </div>
+             </div>
+         </div>   
+<div class="row">
+  <div class="col-3">
 
-          </tr>
-               <tr>
-                  <td>University of Ghana</td>
-                  <td> information technology</td>
-               </tr>
-        </table>
-    </div>
-    </div>
+<table  style="width:100%" height="2px" border="1">
+<tr>
+     <th>SCHOOL ATTENDED </th>
+      <th>COURSE OFFERED</th>
+      </tr>
+<tr>
+
+    <td> KEEP MEMORAL J.H.S</td>
+    <td>English ,Social Studies, Pre- tech, Mathematics <br> Integrated science <br> R.M.E</td>
+</tr>
+
+<div class="row">
+<div class="col-1">
+
+</table>
+
+<table  style="width:100%" height="2px" border="1">
+<tr>
+    <th>SCHOOL ATTENDED</th>
+    <th>COURSE OFFERED</th>
+</tr>
+<tr>
+    <td>TEMA SENIOR HIGH</td>
+    <td>English, Science, C.R.S ,History, Economics,Government <br> Social Studies <br>Maths</td>
+</tr>
+</table>
 </div>
- <div class="row">
-<div class="col-6">
-    <form>
- <label for="fname">firstname</label><br>
-<input type="text" id="fname" name="fname"><br>
-<label for="lname">lastname</label><br>
-<input type="text" id="lname" name="lname"><br>
-<label for="age"> How old are you </label><br>
-<input type="text" id="age" name="age"><br>
-<label for="telephone"> Telephone number</label><br>
-<input type="text" id="telephone number" name="contact"><br>
- <p> choose your gender</p>
-<label for="male"> male</label><br>
-<input type="radio" id="male" name="your gender" value="male"><br>
-
-<label for="female"> female</label><br>
-<input type="radio" id="female" name="your gender" value="female"><br>
-
-<label for="id"> CHOOSE YOUR ID CARD :</label><br>
- <select name="id card" id="id card"><br>
-        <option value="ECOWAS IDENTIFICATION CARD ">ECOWAS IDENTIFICATION CARD</option>
-        <option value="VOTER ID CARD "> VOTER ID CARD</option>
-        <option value="NATIONAL HEALTH INSURANCE CARD "> NATIONAL HEALTH INSURANCE CARD</option>
-        <option value=" SSNIT CARD"> SSNIT CARD</option>
-</select><br>
-<label for="id card "> ENTER YOUR ID CARD NUMBER</label><br>
-<input type="text" id=" id card" name="id card"><br>
-<input type="submit" value="submit">
-</form>
-
-
-
+</div>
 </div>
 </div>
 
 
+<div class="row">
+ <div classs="col-2">
+  <form action="/INDEX.HTML">
+      <fieldset><br>
+          <p>Fill this form</p> <br>
+     <label for="fname">First name</label> <br><br>
+      <input type="text" id="fname" name="fname"  placeholder="Enter  your first name"> <br><br>
+     <label for="lname "> Last name</label> <br><br>
+     <input type="text" id="lname" name="lname" placeholder="Enter your last name "> <br><br>
+      <label for="tphone"> Telephone number</label> <br><br>
+      <input type="text" id="tphone" name="tphone" placeholder="Enter your telephone"><br><br>
+       <label for="age">Your Age </label><br> <br>
+       <input type="date" id="age" name="age " placeholder="Enter your Age "><br><br>
+      <h4> Select your gender</h4><br>
+      <input type="radio" id="male" name="choose your gender" value="Male"> 
+      <label for="male"> male</label><br><br>
+      <input type="radio" id="female" name="choose your gender" value="female"> 
+      <label for="female"> female</label><br>
+
+      <h3> select your Id card type</h3><br><br>
+      <label for="id card "> CHOOSE ID CARD </label><br>
+      <select id="id card " name="id card " value="CHOOSE YOUR CARD "><br> 
+        
+        <option placeholder=" choose id card"></option>
+               <option value="Ecowas card ">Ecowas card</option>
+               <option value="SSNIT CARD  ">SSNIT CARD</option>
+               <option value="NHIS CARD ">NHIS CARD</option>
+               <option value="VOTER ID CARD ">VOTER ID CARD</option>
+       
+      </select><br><br>
+      <input type="submit" value="submit">
+
+
+    </fieldset>
+  </form>
+
+
+
+
+</div>
 
 
 
@@ -72,3 +121,23 @@
 
 </body>
 </html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

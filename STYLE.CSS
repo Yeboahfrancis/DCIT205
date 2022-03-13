@@ -1,0 +1,106 @@
+*{
+  margin:0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+display: flex;
+align-items: center;
+padding: 20px, 10px;
+
+}
+nav{
+flex: 1;
+text-align: right;
+}
+nav ul{
+  display: inline-block;
+  list-style: none;
+padding:20px;
+
+}
+nav ul li{
+display: inline-block;
+padding-right: 15px;
+}
+a{
+text-decoration: none;
+color:whitesmoke;
+
+}
+p{
+color: rgb(230, 213, 176);
+padding: 20px;
+margin-top: 20px;
+text-align: center;
+}
+.container{
+background-image: url(image/download\ \(3\).jfif);
+border-width: 50px;
+border-radius: 30px;
+}
+.container{
+  max-width:1300PX ;
+  margin:auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+h2{
+   text-align: center;
+   border-radius: 20pc;
+   border-color: white;
+  padding-right: 20px;
+  margin: 20px;
+  color: aliceblue;
+  cursor: pointer;
+
+}
+
+
+img{
+    align-content: center;
+    border-width: 10px;
+    min-width: 10cm;
+    width: 50px, 25px;
+    border-radius: 10px;
+    border-style: none;   
+}
+.smallcontainer{
+ background-image: url(image/images\ \(5\).jfif);
+}
+tr{
+   text-align: center;
+   color:black;
+   font-style: bold;
+   margin: auto;
+   width: 100px, 50px;
+}
+
+ th{
+    text-align: center;
+    color: brown;
+}
+table{
+   width: 50,25px;
+   background-image: url(image/images\ \(7\).jfif);
+   padding: 20px;
+   margin: 25px;
+}
+fieldset{
+    align-items: center;
+    text-align: center;
+    font-style: italic;
+    border: radius 20px;
+    border-width: 5%,2%;
+    border-style: none;
+
+    }
+    form{
+      background-image: url(image/images\ \(3\).jfif);
+      padding-bottom: 20px;
+      margin: 25px;
+      min-width:50px;
+      margin: auto;
+
+    }
+
